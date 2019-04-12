@@ -8,7 +8,7 @@ function nowServing(currentLine) {
   if (currentLine.length > 0 ) {
     let firstPerson = currentLine[0]
     currentLine.unshift()
-    return firstPerson
+    return `Currently serving ${firstPerson}`
   } else {
     return 'There is nobody waiting to be served!'
   }
