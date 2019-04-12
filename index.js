@@ -18,11 +18,11 @@ function currentLine(currentLine) {
   if (currentLine.length > 0 ) {
     let result = 'The line is currently: '
     for (let i = 0; i < (currentLine.length - 1); i++) {
-      result = result + `${i} : ${currentLine[i]}, `
+      result = result + `${i + 1} : ${currentLine[i]}, `
       console.log(i)
       console.log(result)
     }
-    result = result + `${currentLine.length} : ${currentLine[currentLine.length]}`
+    result = result + `${currentLine.length} : ${currentLine[currentLine.length - 1]}`
     console.log(result)
     return result
   } else {
