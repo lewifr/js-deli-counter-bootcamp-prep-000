@@ -5,7 +5,11 @@ function takeANumber(currentLine, name) {
 }
 
 function nowServing(currentLine) {
-  let firstPerson = currentLine[0]
-  currentLine.unshift()
-  return firstPerson
+  if (currelineLine.length > 0 ) {
+    let firstPerson = currentLine[0]
+    currentLine.unshift()
+    return firstPerson
+  } else {
+    return 'There is nobody waiting to be served!'
+  }
 }
