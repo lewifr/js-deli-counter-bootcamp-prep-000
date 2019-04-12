@@ -22,7 +22,6 @@ function currentLine(currentLine) {
       console.log(i)
       console.log(result)
     }
-    console.log(i)
     result = result + `${currentLine.length} : ${currentLine[currentLine.length]}`
     console.log(result)
   } else {
