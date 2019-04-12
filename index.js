@@ -23,8 +23,8 @@ function currentLine(currentLine) {
       console.log(result)
     }
     console.log(i)
-    console.log(result)
     result = result + `${i} : ${currentLine[i]}`
+    console.log(result)
   } else {
     return 'The line is currently empty.'
   }
