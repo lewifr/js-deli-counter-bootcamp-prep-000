@@ -24,6 +24,7 @@ function currentLine(currentLine) {
     }
     result = result + `${currentLine.length} : ${currentLine[currentLine.length]}`
     console.log(result)
+    return result
   } else {
     return 'The line is currently empty.'
   }
