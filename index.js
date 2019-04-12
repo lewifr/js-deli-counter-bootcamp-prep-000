@@ -22,7 +22,7 @@ function currentLine(currentLine) {
       console.log(i)
       console.log(result)
     }
-    result = result + `${currentLine.length}. : ${currentLine[currentLine.length - 1]}`
+    result = result + `${currentLine.length}. ${currentLine[currentLine.length - 1]}`
     console.log(result)
     return result
   } else {
