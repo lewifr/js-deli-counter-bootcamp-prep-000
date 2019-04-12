@@ -5,7 +5,7 @@ function takeANumber(currentLine, name) {
 }
 
 function nowServing(currentLine) {
-  if (currelineLine.length > 0 ) {
+  if (currentLine.length > 0 ) {
     let firstPerson = currentLine[0]
     currentLine.unshift()
     return firstPerson
